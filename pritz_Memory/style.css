@@ -1,0 +1,62 @@
+header {
+  background-color: #b5d3cc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Titillium Web', sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #555;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 40px 0 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+body{
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #F0F8FF;
+}
+.text{
+  text-align: center;
+  padding: 50px;
+}
+.knopf {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.knopfcont {
+  display: flex;
+  justify-content: center;
+}
+

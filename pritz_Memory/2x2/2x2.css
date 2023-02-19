@@ -1,0 +1,89 @@
+header {
+  background-color: #b5d3cc;
+  padding: 20px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  /*Links für a*/
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+h1 {
+  font-size: 32px;
+  margin: 40px 0 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*Alles darüber ist Header*/
+/*Start Body*/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+body{
+  background-color: #F0F8FF;
+}
+
+#timer{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.titel {
+  font-size: 36px;
+  margin: 20px 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.gitter {
+  /*Das Raster der Karten*/
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.gitter-item{
+  /*Eine Karte*/
+  height: 150px;
+  width: 150px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #F0F8FF;
+  margin: 5px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+#reset {
+  /*der Button*/
+  padding: 10px 20px;
+  font-size: 24px;
+  font-family: 'Titillium Web', sans-serif;
+  cursor: pointer;
+  background-color: #F0F8FF;
+}
