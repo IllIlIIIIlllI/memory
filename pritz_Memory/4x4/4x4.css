@@ -54,18 +54,15 @@ body{
 }
 
 .gitter {
-  /*Das Raster der Karten*/
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
   justify-content: center;
   align-items: center;
   margin: 10px;
 }
 
-.gitter-item{
-  /*Eine Karte*/
+.gitter-item {
   height: 100px;
   width: 100px;
   background-color: #ccc;
@@ -74,10 +71,9 @@ body{
   align-items: center;
   font-size: 20px;
   color: #F0F8FF;
-  margin: 5px;
   font-family: 'Titillium Web', sans-serif;
+  margin: 5px;
 }
-
 
 #reset {
   /*der Button*/
