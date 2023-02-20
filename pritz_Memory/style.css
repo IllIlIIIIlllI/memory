@@ -37,6 +37,7 @@ h1 {
   margin: 40px 0 20px;
   text-align: center;
   text-transform: uppercase;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 body{
@@ -46,6 +47,7 @@ body{
 .text{
   text-align: center;
   padding: 50px;
+  font-family: 'Titillium Web', sans-serif;
 }
 .knopf {
   background-color: green;
@@ -53,6 +55,7 @@ body{
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .knopfcont {
